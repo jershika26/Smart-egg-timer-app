@@ -99,10 +99,10 @@
       // Safely go to home page
       if (window.location.origin === "null" || window.location.origin === "file://") {
         // If opened locally from your computer
-        window.location.replace("./home.html");
+        window.location.replace("./index.html");
       } else {
         // If hosted online
-        window.location.href = "home.html";
+        window.location.href = "index.html";
       }
     }
 
@@ -132,7 +132,7 @@
 
     function goHome() {
       stopAlarmSound();
-      window.location.href = "home.html";
+      window.location.href = "index.html";
     }
 
     function restartTimer() {
