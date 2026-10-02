@@ -20,7 +20,7 @@
     const type = params.get("type");
 
     let timeInSeconds = 0;
-    if (type === "soft") timeInSeconds = 1 * 60;       // 5 min
+    if (type === "soft") timeInSeconds = 5 * 60;       // 5 min
     else if (type === "medium") timeInSeconds = 7 * 60; // 7 min
     else if (type === "hard") timeInSeconds = 10 * 60;  // 10 min
 
